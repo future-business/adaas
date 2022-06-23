@@ -9,5 +9,7 @@ yum install -y postgresql13-contrib
 yum install -y postgis30_13 pgrouting_13
 yum install -y timescaledb_13
 
+postgresql-13-setup initdb
+
 systemctl enable postgresql-13
 systemctl start postgresql-13
